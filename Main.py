@@ -9,16 +9,16 @@ class Stack:
     self.head = None
 
   def push(self, data) -> None:
-    def push(self, data) -> None:
-    temp=self.head
+  
+    
     n=Node(data)
-    n.next=temp
+    n.next=self.head
     self.head=n
 
   def pop(self) -> None:
     if self.head!=None:
-      temp=self.head.next
-      self.head=temp
+      
+      self.head=self.head.next
 
   def status(self):
     """
