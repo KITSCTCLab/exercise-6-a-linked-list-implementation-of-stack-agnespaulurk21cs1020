@@ -27,7 +27,7 @@ class Stack:
     element=''
     curr=self.head
     while curr!=None:
-      element+=str(current.data)+"=>"
+      element+=str(curr.data)+"=>"
       curr=curr.next
     print(element+"None")
 
