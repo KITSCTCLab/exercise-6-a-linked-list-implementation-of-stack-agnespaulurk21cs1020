@@ -29,7 +29,7 @@ class Stack:
     while curr!=None:
       element+=str(current.data)+"=>"
       curr=curr.next
-      print(element+"none")
+    print(element+"None")
 
 
 # Do not change the following code
